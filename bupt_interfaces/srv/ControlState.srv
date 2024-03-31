@@ -1,0 +1,4 @@
+string sensor_name
+bool open
+---
+string message
