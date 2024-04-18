@@ -14,9 +14,10 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DoubleArray.msg"
-  "msg/Joy.msg"
+  "msg/Joystick.msg"
   "msg/VisionData.msg"
   "msg/VisionDataArray.msg"
+  "srv/MotorAction.srv"
   "srv/ControlState.srv"
 )
 ament_export_dependencies(rosidl_default_runtime)
